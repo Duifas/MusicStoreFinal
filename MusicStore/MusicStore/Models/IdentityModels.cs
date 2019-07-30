@@ -29,5 +29,11 @@ namespace MusicStore.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MusicStore.Models.Album> Albums { get; set; }
+
+        public System.Data.Entity.DbSet<MusicStore.Models.Artist> Artists { get; set; }
+
+        public System.Data.Entity.DbSet<MusicStore.Models.Genre> Genres { get; set; }
     }
 }
