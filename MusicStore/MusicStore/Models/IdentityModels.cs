@@ -35,5 +35,11 @@ namespace MusicStore.Models
         public System.Data.Entity.DbSet<MusicStore.Models.Artist> Artists { get; set; }
 
         public System.Data.Entity.DbSet<MusicStore.Models.Genre> Genres { get; set; }
+
+        public System.Data.Entity.DbSet<MusicStore.Models.Cart> Carts { get; set; }
+
+        public System.Data.Entity.DbSet<MusicStore.Models.Order> Orders { get; set; }
+
+        public System.Data.Entity.DbSet<MusicStore.Models.OrderDetail> OrderDetails { get; set; }
     }
 }
